@@ -100,6 +100,7 @@ public class Booking extends BaseClassss {
 		List<WebElement> prize = findElementsByXpath("//div[@class='prize']//child::strong");
 		for (WebElement fullprize : prize) {
 			System.out.println(fullprize.getText());
+			System.out.println("GIT");
 		}
 
 		WebElement selhot = findLocatorByXpath("//h2[text()='$ 1,100']//following::a");
@@ -194,6 +195,7 @@ public class Booking extends BaseClassss {
 		WebElement hot = findLocatorByXpath("//strong[text()='Hyatt Regency Chennai']");
 		getTextElement(hot);
 		System.out.println(getTextElement(hot));
+		
 
 	}
 }
