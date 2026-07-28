@@ -194,6 +194,9 @@ public class Booking extends BaseClassss {
 		WebElement hot = findLocatorByXpath("//strong[text()='Hyatt Regency Chennai']");
 		getTextElement(hot);
 		System.out.println(getTextElement(hot));
+		
+		System.out.println("Completed");
+		System.out.println("works fine");
 
 	}
 }
